@@ -1,0 +1,60 @@
+// Layout
+$units: 8px;
+
+// Colours
+$primary: #000000;
+$secondary: #ff8585;
+$shadow: 0px 2px 1 * $units rgba(0,0,0,0.5);
+
+//fonts
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("/fonts/Poppins-Medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/fonts/Poppins-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Rubik-Medium";
+    src: url("/fonts/Rubik-VariableFont_wght.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("/fonts/Rubik-VariableFont_wght.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+$xl-font: "Poppins-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header1: "Poppins-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header2: "Poppins-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header3: "Rubik-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header4: "Rubik-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header5: "Rubik-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header6: "Rubik-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$paragraph: "Rubik-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$xl-font-size: 35px;
+$header1-size: 29px;
+$header2-size: 24px;
+$header3-size: 24px;
+$header4-size: 16px;
+$header5-size: 14px;
+$header6-size: 13px;
+$paragraph-size: 16px;
+
+$xl-font-line_height: 80px;
+$header1-line_height: 36px;
+$header2-line_height: 31px;
+$header3-line_height: 29px;
+$header4-line_height: 30px;
+$header5-line_height: 24px;
+$header6-line_height: 21px;
+$paragraph-line_height: 21px;
