@@ -1,6 +1,6 @@
 # later-jwdca
 
-After pulling this repository, run the following commands in a command line terminal to build and execute the project: 
+After pulling this repository, run the following commands in a command line terminal from the project root folder to build and execute the project: 
 
 ### To build the project run:
 ```
