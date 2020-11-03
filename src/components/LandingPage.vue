@@ -7,13 +7,13 @@
           that <span class="poppins-bold">actually</span> helps you grow
         </h1>
         <div class="row visual_planner--row">
-          <div class="col-lg-6 visual_planner--image_col">
+          <div class="col-md-6 visual_planner--image_col">
             <img
               src="../assets/Hp--visual--planner-f0bab8b1.png"
               alt="Visual Planner Image"
             />
           </div>
-          <div class="col-lg-6 visual_planner--text_col">
+          <div class="col-md-6 visual_planner--text_col">
             <h6 class="salmon-text section-subheader">Visual Planner</h6>
             <h1>Plan a month's worth of social media posts in minutes</h1>
             <p>
@@ -161,8 +161,8 @@ export default {
 .intro-header {
   margin: 25px 0 15px;
   font-weight: $medium-font-weight;
-  font-size: 2.75rem !important;
-  line-height: 3.25rem !important;
+  font-size: 2.75rem;
+  line-height: 3.25rem;
 }
 .visual_planner--row {
   padding: 50px 0;
