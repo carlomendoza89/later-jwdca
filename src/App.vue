@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <LandingPage />
+    <router-view />
   </div>
 </template>
 
 <script>
-import LandingPage from "./components/LandingPage";
 
 export default {
-  name: "App",
-  components: {
-    LandingPage,
-  },
+  name: "App"
 };
 </script>
 
@@ -29,14 +25,18 @@ section {
   padding-bottom: 80px;
 }
 .section-fading {
-  background: linear-gradient(rgb(250, 248, 245) 0%, rgb(255, 255, 255) 100%)
+  background: linear-gradient(rgb(250, 248, 245) 0%, rgb(255, 255, 255) 100%);
 }
 .section-header {
   text-align: center;
   margin: 16px 0 32px;
 }
-.into-header {
+.section-subheader {
+  margin: 20px 0;
+}
+.intro-header {
   font-size: $xl-font-size;
+  margin-bottom: 32px;
 }
 .container {
   max-width: 1200px;
@@ -44,9 +44,11 @@ section {
 .button {
   color: $salmon;
   border: 1px solid $salmon;
-  border-radius: 50px;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: 0.3s all ease-in-out;
+  font-family: "Rubik-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: $medium-font-weight;
 }
 .button:hover {

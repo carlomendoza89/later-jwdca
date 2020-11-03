@@ -6,19 +6,20 @@
           A social media marketing platform <br />
           that <span class="poppins-bold">actually</span> helps you grow
         </h1>
-        <div class="row visual_planner--row">
-          <div class="col-lg-6 visual_planner--image_col">
+        <div class="row">
+          <div class="col-md-6">
             <img
               src="../assets/Hp--visual--planner-f0bab8b1.png"
               alt="Visual Planner Image"
+              style="max-width: 100%"
             />
           </div>
-          <div class="col-lg-6 visual_planner--text_col">
+          <div class="col-md-6">
             <h6 class="salmon-text section-subheader">Visual Planner</h6>
             <h1>Plan a month's worth of social media posts in minutes</h1>
             <p>
               Scheduling your social media content is as simple as
-              dragging-and-dropping. No, seriously, Later will tell you your
+              dragging-and-droppinf. No, serviously, Later will tell you your
               unique Best Time to Post, so you can schedule in batches and
               publish without a hitch.
             </p>
@@ -31,7 +32,7 @@
               class="decorative_icon"
               src="../assets/square.svg"
               alt="square"
-              style="position: absolute; right: 0; bottom: -190px"
+              style="position: absolute; right: 0; bottom: -140px"
             />
           </div>
         </div>
@@ -152,62 +153,12 @@
 
 <script>
 export default {
-  name: "LandingPage",
+  name: "StyleSheet",
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.intro-header {
-  margin: 25px 0 15px;
-  font-weight: $medium-font-weight;
-  font-size: 2.75rem !important;
-  line-height: 3.25rem !important;
-}
-.visual_planner--row {
-  padding: 50px 0;
-}
-.visual_planner--image_col,
-.visual_planner--text_col {
-  padding: 0 15px;
-}
-.visual_planner--image_col img {
-  max-width: 100%;
-  max-height: 400px;
-}
-.visual_planner--text_col h1 {
-  margin: 20px 0 10px;
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 2.75rem;
-}
-.visual_planner--text_col p {
-  padding-right: 2rem;
-  margin-bottom: 20px;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-.visual_planner--text_col .button {
-  font-size: 15px;
-}
-@media only screen and (max-width: 768px) {
-  .intro-header {
-    font-size: 1.81rem;
-    text-align: center;
-    line-height: 2.5rem;
-  }
-  .visual_planner--image_col {
-    text-align: center;
-  }
-  .visual_planner--text_col h1 {
-    font-size: 1.75rem;
-    line-height: 2.25rem;
-  }
-  .visual_planner--text_col p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-}
 .decorative_icon {
   position: absolute;
 }
