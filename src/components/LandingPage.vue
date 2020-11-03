@@ -2,7 +2,7 @@
   <main>
     <section class="section-fading">
       <div class="container">
-        <h1 class="section-header into-header">
+        <h1 class="section-header intro-header">
           A social media marketing platform <br />
           that <span class="poppins-bold">actually</span> helps you grow
         </h1>
@@ -11,11 +11,11 @@
             <img
               src="../assets/Hp--visual--planner-f0bab8b1.png"
               alt="Visual Planner Image"
-              style="max-width: 100%"
+              style="max-width: 100%;"
             />
           </div>
           <div class="col-md-6">
-            <h6 class="salmon-text section">Visual Planner</h6>
+            <h6 class="salmon-text section-subheader">Visual Planner</h6>
             <h1>Plan a month's worth of social media posts in minutes</h1>
             <p>
               Scheduling your social media content is as simple as
@@ -40,10 +40,10 @@
     </section>
     <section class="testimonials--section">
       <div class="container">
-        <h6 class="section-header">What Our Customers Say</h6>
+        <h6 class="section-header text-center">What Our Customers Say</h6>
         <div class="row justify-content-center customer_testimonial--row">
           <div class="col-lg-4 customer_testimonial--container">
-            <div class="col-12 customer_testimonial">
+            <div class="col customer_testimonial">
               <div class="row customer_testimonial-stars--row">
                 <img
                   class="customer_testimonial-stars"
@@ -77,7 +77,7 @@
             </div>
           </div>
           <div class="col-lg-4 customer_testimonial--container">
-            <div class="col-12 customer_testimonial">
+            <div class="col customer_testimonial">
               <div class="row customer_testimonial-stars--row">
                 <img
                   class="customer_testimonial-stars"
@@ -112,7 +112,7 @@
             </div>
           </div>
           <div class="col-lg-4 customer_testimonial--container">
-            <div class="col-12 customer_testimonial">
+            <div class="col customer_testimonial">
               <div class="row customer_testimonial-stars--row">
                 <img
                   class="customer_testimonial-stars"
