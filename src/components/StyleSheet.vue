@@ -55,7 +55,7 @@
                 <p class="customer_testimonial-review">
                   We've been using Later for a little over 2 years. The visual
                   planner is one of the tools that has helped us become more
-                  efficient and it's an important part of our marketing toolkit
+                  efficient and it's an important part of our marketing toolkit.
                 </p>
                 <br />
                 <br />

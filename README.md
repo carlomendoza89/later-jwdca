@@ -1,6 +1,8 @@
 # later-jwdca
 
-## To build the project run:
+After pulling this repository, run the following commands in a command line terminal to build and execute the project: 
+
+### To build the project run:
 ```
 npm install
 ```
@@ -10,7 +12,7 @@ npm install
 npm run serve
 ```
 
-The project should open in a new brower tab. If not go to the url specified in 'Local' by the command line you used in the previous instruction:
+The project should open in a new browser tab. If not go to the url specified in 'Local' by the command line you used in the previous instruction:
 
 ie.
 ``` 
